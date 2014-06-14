@@ -28,12 +28,3 @@ get '/random' do
   erb :sandwich
 end
 
-get '/category/:name' do
-  @sandwich = Sandwich.new("Reuben", Set.new([
-    :corned_beef,
-    :sauerkraut,
-    :russian_dressing,
-    :rye_bread
-  ]))
-  erb :sandwich
-end
