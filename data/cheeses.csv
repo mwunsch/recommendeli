@@ -1,7 +1,7 @@
 cheese,cheese family,boldness
-american,shitty,mild
+american,garbage,mild
 muenster,great,mild
-low fat american,shitty,mild
+low fat american,garbage,mild
 asiago,,sharp
 swiss,great,sharp
 pepper jack,spicy,mild
@@ -15,7 +15,7 @@ cream havarti,,medium
 havartie with dill,spicy,sharp
 edam,,medium
 baby swiss,,medium
-monterey jack,shitty,mild
+monterey jack,garbage,mild
 colby,,sharp
 manchego,,sharp
 mild swiss,,mild
@@ -24,7 +24,7 @@ smoked gruyere,smoked,sharp
 provolone,,mild
 sharp provolone,,sharp
 mild provolone,,mild
-sharp american,shitty,sharp
+sharp american,garbage,sharp
 sharp cheddar,great,sharp
 mild cheddar,,mild
 medium cheddar,,medium
@@ -45,6 +45,6 @@ feta,middle eastern,sharp
 halloumi,middle eastern,mild
 sirene,middle eastern,sharp
 telemea,middle eastern,sharp
-cheese whiz,shitty,mild
-velveeta,shitty,mild
-cheese sauce,shitty,mild
+cheese whiz,garbage,mild
+velveeta,garbage,mild
+cheese sauce,garbage,mild
