@@ -1,8 +1,32 @@
 require 'sinatra'
 require 'sass/plugin/rack'
 
+require 'set'
+
+require './lib/sandwiches'
+
 use Sass::Plugin::Rack
 
 get '/' do
-  erb "When was the last time you fell in love with a sandwich?"
+  erb :categories
+end
+
+get '/sandwich/:name' do
+  @sandwich = Sandwich.new("Reuben", Set.new([
+    :corned_beef,
+    :sauerkraut,
+    :russian_dressing,
+    :rye_bread
+  ]))
+  erb :sandwich
+end
+
+get '/category/:name' do
+  @sandwich = Sandwich.new("Reuben", Set.new([
+    :corned_beef,
+    :sauerkraut,
+    :russian_dressing,
+    :rye_bread
+  ]))
+  erb :sandwich
 end

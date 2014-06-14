@@ -1,8 +1,51 @@
 body {
-  font-family: 'Avenir Next', 'Avenir', 'Helvetica Neue', 'Helvetica', arial, sans-serif; }
+  font-family: 'Avenir Next', 'Avenir', 'Helvetica Neue', 'Helvetica', arial, sans-serif;
+  color: #5dc1a5;
+  background-color: #181026; }
+
+a {
+  text-decoration: none;
+  color: #5dc1a5; }
+
+.header {
+  font-size: 3em;
+  text-align: center; }
+  .header .logo {
+    display: block;
+    color: #dad9db;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: uppercase; }
 
 .contents {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+
+.sandwich {
+  text-align: center; }
+  .sandwich .sandwich-img {
+    max-height: 55vh;
+    display: block; }
+  .sandwich .sandwich-name {
+    color: #dad9db;
+    font-weight: normal;
+    font-size: 2em;
+    margin: 0; }
+
+.voting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0; }
+  .voting .vote {
+    display: block;
+    color: #df5eb0; }
+    .voting .vote:hover {
+      color: #a3587e; }
+
+.footer {
+  margin-top: 2em;
+  font-size: small; }

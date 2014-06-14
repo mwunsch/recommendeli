@@ -2,15 +2,19 @@
 <html lang="en-US" dir="ltr">
 <head>
   <meta charset="utf-8" />
-  <meta content="The Sandwich Genome Project" name="description">
-  <title>The Sandwich Genome Project</title>
+  <meta content="Recommendeli: Powered by the Sandwich Genome Project" name="description">
+  <title>Recommendeli: Powered by the Sandwich Genome Project</title>
   <link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.css" rel="stylesheet" media="screen" />
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="/stylesheets/main.css" rel="stylesheet" media="screen" />
 </head>
 <body>
   <div class="contents">
-    <h1 class="header">The Sandwich Genome Project</h1>
+    <h1 class="header"><a href="/" class="logo">Recommendeli</a></h1>
     <%= yield %>
+    <footer class="footer">
+      <p>Powered by the Sandwich Genome Project.</p>
+    </footer>
   </div>
 </body>
 </html>

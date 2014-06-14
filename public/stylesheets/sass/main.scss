@@ -1,5 +1,25 @@
 body {
   font-family: 'Avenir Next', 'Avenir', 'Helvetica Neue', 'Helvetica', arial, sans-serif;
+  color: rgb(93,193,165);
+  background-color: rgb(24,16,38)
+}
+
+a {
+  text-decoration: none;
+  color: rgb(93,193,165);
+}
+
+.header {
+  font-size: 3em;
+  text-align: center;
+  .logo {
+    display: block;
+    color: rgb(218,217,219);
+    letter-spacing: 1px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: uppercase;
+  }
 }
 
 .contents {
@@ -7,4 +27,37 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.sandwich {
+  text-align: center;
+  .sandwich-img {
+    max-height: 55vh;
+    display: block;
+  }
+  .sandwich-name {
+    color: rgb(218,217,219);
+    font-weight: normal;
+    font-size: 2em;
+    margin: 0;
+  }
+}
+
+.voting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0;
+  .vote {
+    display: block;
+    color: rgb(223,94,176);
+    &:hover {
+      color:rgb(163,88,126);
+    }
+  }
+}
+
+.footer {
+  margin-top: 2em;
+  font-size: small;
 }
