@@ -14,7 +14,7 @@ get '/' do
 end
 
 get '/sandwich/:name' do
-  @sandwich = settings.sandwiches.set.find {|s| s.name.downcase.gsub(/\s/, "_").eql?(params[:name]) }
+  @sandwich = settings.sandwiches.set.find {|s| s.slug.eql?(params[:name]) }
   erb :sandwich
 end
 

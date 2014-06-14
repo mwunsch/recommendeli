@@ -21,6 +21,10 @@ class Sandwich
     @image ||= image_search.sample
   end
 
+  def slug
+    name.downcase.gsub(/\s/, "_")
+  end
+
   def filled_attributes
     attributes.reject {|k,v| v.nil? || v.empty? }
   end
@@ -40,7 +44,7 @@ class Sandwich
     end
     if sample_attributes.has_key?(:cheese)
       cheese = Sandwiches.lookup_cheese(sample_attributes[:cheese].first)
-      desc << "This cheese is a #{cheese[:boldness]} #{cheese[:quantifier]} cheese."
+      desc << "This cheese is a #{cheese[:boldness]} #{cheese[:quantifier]} cheese." unless protein.nil?
     end
     desc.shuffle.join(" ")
   end

@@ -1,11 +1,12 @@
 <ul class="categories">
   <li class="category">
-    <a href="/category/delicatessen">Delicatessen</a>
+    <a href="/random">Random</a>
   </li>
   <li class="category">
-    <a href="/category/vegetarian">Vegetarian</a>
-  </li>
-  <li class="category">
-    <a href="/category/eastern">Flavors of the Orient</a>
+    <a href="/create">Create Your Own</a>
   </li>
 </ul>
+<h3 class="featured">Featured Sandwich</h3>
+<% settings.sandwiches.random.tap do |rand| %>
+  <a class="featured-sandwich" href="/sandwich/<%= rand.slug %>"><%= rand.name %></a>
+<% end %>

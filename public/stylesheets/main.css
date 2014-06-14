@@ -53,6 +53,27 @@ a {
     .voting .vote:hover {
       color: #a3587e; }
 
+.featured {
+  font-weight: normal; }
+
+.featured-sandwich {
+  color: #df5eb0;
+  font-size: 2em;
+  font-style: italic; }
+  .featured-sandwich:hover {
+    color: #a3587e; }
+
+.categories {
+  margin: 0;
+  padding: 1em 0;
+  list-style: none;
+  text-align: center;
+  border-bottom: 1px solid white;
+  font-size: 1.4em; }
+  .categories .category a {
+    font-style: italic;
+    color: #00e5e5; }
+
 .footer {
   margin-top: 2em;
   font-size: small; }
