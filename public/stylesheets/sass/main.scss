@@ -30,16 +30,23 @@ a {
 }
 
 .sandwich {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   .sandwich-img {
     max-height: 55vh;
     display: block;
+    text-align: center;
   }
   .sandwich-name {
     color: rgb(218,217,219);
     font-weight: normal;
     font-size: 2em;
     margin: 0;
+  }
+  .ingredients-header {
+    margin-bottom: 0;
   }
 }
 
@@ -49,6 +56,7 @@ a {
   align-items: center;
   margin: 1em 0;
   .vote {
+    margin: 0 1em;
     display: block;
     color: rgb(223,94,176);
     &:hover {

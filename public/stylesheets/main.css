@@ -25,15 +25,21 @@ a {
   align-items: center; }
 
 .sandwich {
-  text-align: center; }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
   .sandwich .sandwich-img {
     max-height: 55vh;
-    display: block; }
+    display: block;
+    text-align: center; }
   .sandwich .sandwich-name {
     color: #dad9db;
     font-weight: normal;
     font-size: 2em;
     margin: 0; }
+  .sandwich .ingredients-header {
+    margin-bottom: 0; }
 
 .voting {
   display: flex;
@@ -41,6 +47,7 @@ a {
   align-items: center;
   margin: 1em 0; }
   .voting .vote {
+    margin: 0 1em;
     display: block;
     color: #df5eb0; }
     .voting .vote:hover {

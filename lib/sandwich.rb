@@ -5,11 +5,44 @@ class Sandwich
 
   def initialize(name, attributes)
     @name = name
-    @attributes = attributes
+    @attributes = Hash[attributes.map do |k,v|
+      value = if v.nil?
+        []
+      elsif v.respond_to?(:split)
+        v.split(",").map(&:strip)
+      else
+        v
+      end
+      [k, value]
+    end]
   end
 
   def image
     @image ||= image_search.sample
+  end
+
+  def filled_attributes
+    attributes.reject {|k,v| v.nil? || v.empty? }
+  end
+
+  def description
+    sample_attributes = Hash[filled_attributes.to_a.sample((2..4).to_a.sample)]
+    desc = []
+    if sample_attributes.has_key?(:origin)
+      desc << "This tantilizing delight is from the #{sample_attributes[:origin].first} region."
+    end
+    if sample_attributes.has_key?(:mood)
+      desc << "This sandwich is perfect if you feel #{sample_attributes[:mood].first}."
+    end
+    if sample_attributes.has_key?(:protein)
+      protein = Sandwiches.lookup_protein(sample_attributes[:protein].first)
+      desc << "#{protein[:protein].capitalize} is a #{protein[:quality]} protein." unless protein.nil?
+    end
+    if sample_attributes.has_key?(:cheese)
+      cheese = Sandwiches.lookup_cheese(sample_attributes[:cheese].first)
+      desc << "This cheese is a #{cheese[:boldness]} #{cheese[:quantifier]} cheese."
+    end
+    desc.shuffle.join(" ")
   end
 
 private
