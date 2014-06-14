@@ -1,4 +1,4 @@
-Meat,Meat Family,Origin,Quality
+Protein,Family,Origin,Quality
 garlic bologna,bologna,american,shitty
 bologna,bologna,american,shitty
 olive loaf,loaf,american,shitty
@@ -61,3 +61,19 @@ jerk turkey,turkey,american,good
 blackened turkey,turkey,american,good
 cajun turkey,turkey,american,good
 jerk chicken,chicken,american,good
+tofu,vegetarian,american,good
+tofurkey,vegetarian,american,shitty
+eggplant,vegetarian,italian,good
+tuna salad,fish,american,good
+chicken salad,chicken,american,good
+egg salad,vegetarian,american,good
+falafel,vegetarian,middle east,good
+fish filet,fish,american,shitty
+lox,fish,american,good
+tempeh,vegetarian,american,good
+portobello mushroom,vegetarian,italian,good
+shiitake,vegetarian,italian,good
+fried egg,vegetarian,breakfast,good
+chicken cutlet,chicken,italian,good
+scrambled egg,vegetarian,breakfast,good
+meatball,,italian,good
