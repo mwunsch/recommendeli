@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  "hey"
+  erb "The Sandwich Genome Project"
 end
