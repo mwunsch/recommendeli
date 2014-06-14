@@ -7,15 +7,18 @@ LIST_OF_SANDWICHES = "http://en.wikipedia.org/wiki/List_of_sandwiches"
 
 doc = Nokogiri::HTML open(LIST_OF_SANDWICHES)
 
-sandwiches = CSV.generate do |csv|
+sandwiches = CSV.generate(headers: :first_row, write_headers: true) do |csv|
+  csv << ["Name","Image","Origin","Description"]
   doc.css('table.wikitable').each do |table|
-    csv << ["Name","Image","Origin","Description"]
     table.css('tr').each do |row|
       cols = row.css('td').map do |cell| 
         cell.css('.reference').remove if !cell.css('.reference').empty?
-        cell.content.empty? ? nil : cell.content
+        cell.content.empty? ? nil : cell.content.strip
       end
-      csv << cols unless cols.empty?
+      if !cols.empty?
+        cols.fill(cols.length, 4 - cols.length) { nil } if cols.length < 4
+        csv << cols
+      end
     end
   end
 end
