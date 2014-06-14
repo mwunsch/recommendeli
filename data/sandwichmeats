@@ -1,0 +1,63 @@
+meat,meat family,country of origin,quality
+garlic bologna,bologna,american,shitty
+bologna,bologna,american,shitty
+olive loaf,loaf,american,shitty
+pickle loaf,loaf,american,shitty
+bierwurst,sausage,german,good
+braunschweiger,sausage,german,good
+bresaola,beef,italian,good
+capicola,,italian,good
+chicken breast,chicken,american,good
+buffalo chicken,chicken,american,good
+chicken loaf,chicken,american,shitty
+chorizo,,mexican,good
+corned beef,beef,american,good
+cotechino,salami,italian,good
+devon,bologna,australian,shitty
+dutch loaf,loaf,american,shitty
+gelbwurst,sausage,german,good
+ham,ham,american,good
+honey ham,ham,american,good
+smoked ham,ham,american,good
+chipped ham,ham,american,shitty
+baked ham,ham,american,good
+boiled ham,ham,american,shitty
+jamon,ham,spanish,good
+prosciutto,ham,italian,good
+head cheese,,english,shitty
+jagdwurst,sausage,german,good
+krakowska,sausage,polish,shitty
+liverwurst,,german,good
+pimento loaf,loaf,american,shitty
+ham and cheese loaf,loaf,american,shitty
+mortadella,,italian,good
+pastrami,beef,american,good
+pork roll,,american,shitty
+prasky,sausage,german,good
+polony,bologna,italian,shitty
+roast beef,beef,american,good
+roast pork,,,good
+salami,salami,italian,good
+capicola,salami,italian,good
+italian style salami,salami,italian,good
+jewish style salami,salami,italian,good
+pepperoni,salami,italian,good
+soppressata,salami,italian,good
+saucisson sec,salami,french,good
+teewurst,sausage,german,shitty
+breakfast sausage,sausage ,breakfast,good
+bacon,bacon,breakfast,good
+turkey bacon,bacon,breakfast,shitty
+bacon,bacon,american,good
+turkey sausage,sausage,breakfast,shitty
+beef tongue,,mexican,good
+turkey,turkey,american,good
+turkey ham,turkey,american,good
+pepper turkey,turkey,american,good
+honey turkey,turkey,american,good
+pastrami cured turkey,turkey,american,good
+smoked turkey,turkey,american,good
+jerk turkey,turkey,american,good
+blackened turkey,turkey,american,good
+cajun turkey,turkey,american,good
+jerk chicken,chicken,american,good
