@@ -1,0 +1,8 @@
+body {
+  font-family: 'Avenir Next', 'Avenir', 'Helvetica Neue', 'Helvetica', arial, sans-serif; }
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
