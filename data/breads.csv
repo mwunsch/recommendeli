@@ -32,3 +32,7 @@ sundried tomato wrap,not a sandwich,spice up the sandwich,healthy
 tortilla,not a sandwich,containing the sandwich,healthy
 dinner roll,roll,containing the sandwich,not healthy
 wheat roll,roll,containing the sandwich,healthy
+panini,hot sandwich,spice up the sandwich,not healthy
+grilled hero,hot sandwich,spice up the sandwich,not healthy
+toasted bun,hot sandwich,containing the sandwich,not healthy
+toasted bread,hot sandwich,containing the sandwich,not healthy
