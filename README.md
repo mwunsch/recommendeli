@@ -2,6 +2,6 @@
 
 For Comedy Hack Day NYC
 
-by @drujohnston and @markwunsch
+by @drujohnston, @garyyesgary, and @markwunsch
 
 
