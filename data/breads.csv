@@ -1,0 +1,34 @@
+Name,Type,Purpose,Health
+kaiser roll,roll,containing the sandwich,not healthy
+roll,roll,containing the sandwich,not healthy
+12 grain,sliced bread,spice up the sandwich,healthy
+potato bread,sliced bread,containing the sandwich,not healthy
+hero,big ass bread,containing the sandwich,not healthy
+grinder,big ass bread,containing the sandwich,not healthy
+hoagie,big ass bread,containing the sandwich,not healthy
+sub,big ass bread,containing the sandwich,not healthy
+wheat sub,big ass bread,containing the sandwich,healthy
+italian herb sub,big ass bread,spice up the sandwich,not healthy
+italian sub,big ass bread,containing the sandwich,not healthy
+multigrain,sliced bread,spice up the sandwich,healthy
+rye,sliced bread,spice up the sandwich,healthy
+white,sliced bread,containing the sandwich,not healthy
+wheat,sliced bread,containing the sandwich,healthy
+7 grain,sliced bread,spice up the sandwich,healthy
+wonderbread,sliced bread,containing the sandwich,not healthy
+plain bagel,bagel,containing the sandwich,not healthy
+wheat bagel,bagel,containing the sandwich,healthy
+everything bagel,bagel,spice up the sandwich,not healthy
+pumpernickel bagel,bagel,spice up the sandwich,healthy
+sesame bagel,bagel,containing the sandwich,not healthy
+garlic bagel,bagel,spice up the sandwich,not healthy
+whole wheat everything bagel,bagel,spice up the sandwich,healthy
+oat grain,sliced bread,containing the sandwich,healthy
+pita,not a sandwich,containing the sandwich,healthy
+lettuce wrap,not a sandwich,containing the sandwich,healthy
+wrap,not a sandwich,containing the sandwich,healthy
+spinach wrap,not a sandwich,spice up the sandwich,healthy
+sundried tomato wrap,not a sandwich,spice up the sandwich,healthy
+tortilla,not a sandwich,containing the sandwich,healthy
+dinner roll,roll,containing the sandwich,not healthy
+wheat roll,roll,containing the sandwich,healthy
