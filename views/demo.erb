@@ -1,0 +1,13 @@
+<object class="sandwich-svg" type="image/svg+xml" data="img/sandwich.svg"></object>
+<ul class="categories">
+  <li class="category">
+    <a href="/random">Prepared</a>
+  </li>
+  <li class="category">
+    <a href="/demo/create">Create Your Own</a>
+  </li>
+</ul>
+<h3 class="featured">Featured Sandwich</h3>
+<% settings.demo[0].tap do |s| %>
+  <a class="featured-sandwich" href="/demo/<%= s.slug %>"><%= s.name %></a>
+<% end %>

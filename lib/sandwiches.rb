@@ -77,9 +77,13 @@ class Sandwiches
   attr_reader :set
 
   def initialize
-    @set = Set.new self.class.sandwiches.map do |sandwich|
+    @set = self.class.sandwiches.map do |sandwich|
       Sandwich.new sandwich[:name], sandwich.to_hash.reject {|k,v| k.eql?(:name) }
     end
+  end
+
+  def [](index)
+    set[index]
   end
 
   def select_by_attribute(attribute, value)
@@ -87,7 +91,7 @@ class Sandwiches
   end
 
   def random
-    set.to_a.sample
+    set.sample
   end
 
 end

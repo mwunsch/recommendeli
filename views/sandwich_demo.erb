@@ -1,0 +1,21 @@
+<article class="sandwich">
+  <img class="sandwich-img" src="<%= @sandwich.image || '/img/ice-cream-sandwich.jpg' %>" alt="<%= @sandwich.name %>" />
+  <div class="voting">
+    <a class="vote like" href="/demo/up">
+      <i class="fa fa-thumbs-up fa-2x"></i>
+    </a>
+    <h2 class="sandwich-name"><%= @sandwich.name %></h1>
+    <a class="vote dislike" href="/demo/down">
+      <i class="fa fa-thumbs-down fa-2x fa-flip-horizontal"></i>
+    </a>
+  </div>
+  <div class="description">
+    <%= @sandwich.description %>
+  </div>
+  <h3 class="ingredients-header">Ingredients</h3>
+  <ul class="ingredients">
+    <% @sandwich.filled_attributes.each do |k,v| %>
+      <li class="ingredient"><%= v.join(", ") %></li>
+    <% end %>
+  </ul>
+</article>
