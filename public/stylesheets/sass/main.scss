@@ -115,7 +115,10 @@ a {
     display: block;
     margin: 0.5em 0;
     font-style: italic;
-    color: rgb(0,229,229);
+    color: rgb(109,212,144);
+    &:hover {
+      color: rgb(93,193,165);
+    }
   }
 }
 
@@ -125,6 +128,7 @@ a {
 }
 
 .footer {
-  margin-top: 2em;
+  margin: 2em 0;
   font-size: small;
+  text-align: center;
 }
