@@ -23,16 +23,24 @@ a {
 }
 
 .contents {
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-direction: column;
   flex-direction: column;
+  -webkit-justify-content: center;
   justify-content: center;
+  -webkit-align-items: center;
   align-items: center;
 }
 
 .sandwich {
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-direction: column;
   flex-direction: column;
+  -webkit-justify-content: center;
   justify-content: center;
+  -webkit-align-items: center;
   align-items: center;
   .sandwich-img {
     max-height: 55vh;
@@ -51,8 +59,11 @@ a {
 }
 
 .voting {
+  display: -webkit-flex;
   display: flex;
+  -webkit-justify-content: space-between;
   justify-content: space-between;
+  -webkit-align-items: center;
   align-items: center;
   margin: 1em 0;
   .vote {
