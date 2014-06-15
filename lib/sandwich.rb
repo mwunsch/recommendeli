@@ -44,7 +44,7 @@ class Sandwich
     end
     if sample_attributes.has_key?(:cheese)
       cheese = Sandwiches.lookup_cheese(sample_attributes[:cheese].first)
-      desc << "This cheese is a #{cheese[:boldness]} #{cheese[:quantifier]} cheese." unless cheese.nil?
+      desc << "This cheese is a #{cheese[:boldness]} #{cheese[:qualifier]} cheese." unless cheese.nil?
     end
     desc.shuffle.join(" ")
   end
