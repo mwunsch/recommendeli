@@ -12,7 +12,7 @@
   <div class="description">
     <%= @sandwich.description %>
   </div>
-  <h4 class="ingredients-header">Ingredients</h4>
+  <h3 class="ingredients-header">Ingredients</h3>
   <ul class="ingredients">
     <% @sandwich.filled_attributes.each do |k,v| %>
       <li class="ingredient"><%= v.join(", ") %></li>
