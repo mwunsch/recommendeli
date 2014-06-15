@@ -15,7 +15,7 @@
   <h3 class="ingredients-header">Ingredients</h3>
   <ul class="ingredients">
     <% @sandwich.filled_attributes.each do |k,v| %>
-      <li class="ingredient"><%= v.join(", ") %></li>
+      <li class="ingredient"><span class="key"><%= k.to_s.capitalize %>:</span> <%= v.join(", ") %></li>
     <% end %>
   </ul>
 </article>

@@ -55,7 +55,8 @@ a {
     margin: 0;
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 9px;
-    padding: 0.5em 2em; }
+    padding: 0.5em 2em;
+    list-style: none; }
     .sandwich .ingredients .key {
       font-weight: 300;
       font-size: 0.75em; }
