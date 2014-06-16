@@ -6,7 +6,7 @@ class BingImageSearch
   BING_URI = "https://api.datamarket.azure.com/Bing/Search/v1/Image"
 
   def self.from_env
-    new("wIvWku2pOSL2ZtwEomeOb3w0xfu18qXKHg+Go8R0duc")
+    new(ENV['BING_ACCOUNT_KEY'])
   end
 
   def initialize(account_key)
